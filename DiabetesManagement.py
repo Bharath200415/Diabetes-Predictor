@@ -44,7 +44,7 @@ styles={
 
 # data Handelling and file reading
 
-df = pd.read_csv(r'C:\Users\bhara\OneDrive\Desktop\Projects\Diabetes detector\diabetes.csv') # this line here reads the csv file and stores in the df variable where the data is stored in data frame
+df = pd.read_csv('diabetes.csv')# this line here reads the csv file and stores in the df variable where the data is stored in data frame
 # here data frame is an type of data structure that store data in 2d array much like excell 
 # here The r before the string is used to specify a raw string
 
